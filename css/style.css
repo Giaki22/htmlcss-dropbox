@@ -42,6 +42,7 @@ header img{
     margin: 2vw 0;
 }
 .plan-row{
+    display: inline-block;
     width: 30%;
     margin: 0 auto;
     border: 1px solid #d0d0d2;
@@ -88,7 +89,7 @@ header img{
 }
 .period{
     display: block;
-    font-size: 1vw;
+    font-size: .9vw;
     color: #627381;
     margin-bottom: 1vw;
 }
