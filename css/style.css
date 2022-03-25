@@ -41,21 +41,24 @@ header img{
 .select-plan{
     margin: 2vw 0;
 }
-.plan-column{
+.plan-column, .plan-row{
     display: inline-block;
     margin: 0 auto;
     border: 1px solid #d0d0d2;
-    min-height: 55vw;
 }
 .plan-column{
     width: 30%;
+    min-height: 55vw;
 }
-.plan-column .plan-column-title{
+.plan-row{
+    width:100%;
+}
+.plan-column .plan-column-title, .plan-row .plan-row-title{
     border-bottom: 1px solid #d0d0d2;
     text-align: center;
     padding: 1vw;
 }
-.plan-column .plan-column-content{
+.plan-column .plan-column-content, .plan-row .plan-row-content{
     padding: 2vw;
 }
 /* SECTIONS */
@@ -136,6 +139,11 @@ header img{
 }
 .btn-border{
     border: 1px solid black;
+}
+.plan-row-content>.btn.btn-blu{
+    position: relative;
+    bottom: 8vw;
+    left: 25vw;
 }
 /* TEXT */
 h1{
