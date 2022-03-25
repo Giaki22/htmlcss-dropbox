@@ -21,7 +21,7 @@ header img{
 }
 .logo, nav{
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: super;
 }
 .left-main-nav ul li, .right-main-nav ul li{
     display: inline-block;
@@ -34,6 +34,27 @@ header img{
     top: 0px;
     left: 25vw;
 }
+/* PLANS */
+.section-plans{
+    margin-top: 15vw;
+}
+.select-plan{
+    margin: 2vw 0;
+}
+.plan-row{
+    width: 30%;
+    margin: 0 auto;
+    border: 1px solid #d0d0d2;
+    min-height: 60vw;
+}
+.plan-row .plan-row-title{
+    border-bottom: 1px solid #d0d0d2;
+    text-align: center;
+    padding: 1vw;
+}
+.plan-row .plan-row-content{
+    padding: 2vw;
+}
 /* SECTIONS */
 .container-big{
     width: 100%;
@@ -41,7 +62,7 @@ header img{
 .container-middle{
     width:80%;
     margin:0 auto;
-    padding-bottom: 5vw;
+    padding-bottom: 2vw;
 }
 .container-small{
     width: 70%;
@@ -58,17 +79,49 @@ header img{
     display: inline-block;
     width: 50%;
 }
+/* PLANS CONTENT */
+.important{
+    font-size: 1vw;
+    font-weight: 700;
+    display: block;
+    margin-bottom: .3vw;
+}
+.period{
+    display: block;
+    font-size: 1vw;
+    color: #627381;
+    margin-bottom: 1vw;
+}
+.info{
+    font-size: .9vw;
+    color: black;
+}
+.plan-row-content .btn{
+    display: block;
+    margin: 0 auto;
+}
+.buy{
+    color: #0066ff;
+    text-decoration: underline;
+}
+.hr-little{
+    margin: 2vw 0;
+    color: #627381;
+    width: 20%;
+}
 /* IMAGES */
 .row-right>img{
     width: 50vw;
     position: absolute;
     top: 25vw;
     right: 15vw;
+    z-index: 2;
 }
 /* BUTTONS */
 .btn{
     border: none;
     padding: .5vw 1.5vw;
+    font-size: 1vw;
 }
 .btn-blu{
     background-color: #0066ff;
@@ -85,6 +138,7 @@ header img{
 h1{
     font-size: 4.5vw;
     padding-top: 3vw;
+    font-weight: 700;
 }
 p{
     font-size: 1vw;
@@ -93,10 +147,28 @@ p{
 small{
     font-size: .9vw;
 }
+h2{
+    font-size: 2.5vw;
+    font-weight: 700;
+}
+h3{
+    font-size: 1.5vw;
+    font-weight: 700;
+    margin-bottom: .5vw;
+}
 /* FONTAWESOME */
 .fa-solid.fa-arrow-down{
     display: block;
     font-size: 2vw;
     font-weight: 700;
     margin-top: 2vw;
+}
+.fa-solid.fa-check{
+    font-size: 1vw;
+    font-weight: 700;
+    color: #0066ff;
+}
+.fa{
+    font-size: 1vw;
+    font-weight: 700;
 }
