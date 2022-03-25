@@ -14,7 +14,6 @@ header{
     padding: 1vw;
     background-color: white;
 }
-
 header img{
     display: inline-block;
     width: 7vw;
@@ -35,6 +34,37 @@ header img{
     top: 0px;
     left: 25vw;
 }
+/* SECTIONS */
+.container-big{
+    width: 100%;
+}
+.container-middle{
+    width:80%;
+    margin:0 auto;
+    padding-bottom: 5vw;
+}
+.container-small{
+    width: 70%;
+    margin: 0 auto;
+}
+.bkgr-cyan{
+    background-color: #b4d0e6;
+}
+.row-left{
+    display: inline-block;
+    width: 30%;
+}
+.row-right{
+    display: inline-block;
+    width: 50%;
+}
+/* IMAGES */
+.row-right>img{
+    width: 50vw;
+    position: absolute;
+    top: 25vw;
+    right: 15vw;
+}
 /* BUTTONS */
 .btn{
     border: none;
@@ -50,4 +80,23 @@ header img{
 }
 .btn-border{
     border: 1px solid black;
+}
+/* TEXT */
+h1{
+    font-size: 4.5vw;
+    padding-top: 3vw;
+}
+p{
+    font-size: 1vw;
+    padding-bottom: 3vw;
+}
+small{
+    font-size: .9vw;
+}
+/* FONTAWESOME */
+.fa-solid.fa-arrow-down{
+    display: block;
+    font-size: 2vw;
+    font-weight: 700;
+    margin-top: 2vw;
 }
