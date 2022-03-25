@@ -41,19 +41,21 @@ header img{
 .select-plan{
     margin: 2vw 0;
 }
-.plan-row{
+.plan-column{
     display: inline-block;
-    width: 30%;
     margin: 0 auto;
     border: 1px solid #d0d0d2;
-    min-height: 60vw;
+    min-height: 55vw;
 }
-.plan-row .plan-row-title{
+.plan-column{
+    width: 30%;
+}
+.plan-column .plan-column-title{
     border-bottom: 1px solid #d0d0d2;
     text-align: center;
     padding: 1vw;
 }
-.plan-row .plan-row-content{
+.plan-column .plan-column-content{
     padding: 2vw;
 }
 /* SECTIONS */
