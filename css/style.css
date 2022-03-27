@@ -37,6 +37,7 @@ header img{
 /* PLANS */
 .section-plans{
     margin-top: 15vw;
+    margin-bottom: 5vw;
 }
 .select-plan{
     margin: 2vw 0;
@@ -60,30 +61,6 @@ header img{
 }
 .plan-column .plan-column-content, .plan-row .plan-row-content{
     padding: 2vw;
-}
-/* SECTIONS */
-.container-big{
-    width: 100%;
-}
-.container-middle{
-    width:80%;
-    margin:0 auto;
-    padding-bottom: 2vw;
-}
-.container-small{
-    width: 70%;
-    margin: 0 auto;
-}
-.bkgr-cyan{
-    background-color: #b4d0e6;
-}
-.row-left{
-    display: inline-block;
-    width: 30%;
-}
-.row-right{
-    display: inline-block;
-    width: 50%;
 }
 /* PLANS CONTENT */
 .important{
@@ -115,6 +92,53 @@ header img{
     color: #627381;
     width: 20%;
 }
+/* PARTNER */
+.partner{
+    margin-bottom: 5vw;
+}
+.partner-leftside, .partner-rightside{
+    display: inline-block;
+    width: calc(50% - 2vw);
+}
+.partner-leftside>img{
+    width: 100%;
+}
+.partner-rightside{
+    margin-left: 2vw;
+    vertical-align: top;
+}
+.partner-rightside>h3{
+    font-size: 2vw;
+    margin-bottom: 2vw;
+}
+.partner-rightside .btn{
+    display: block;
+    margin-top: 2vw;
+}
+/* SECTIONS */
+.container-big{
+    width: 100%;
+}
+.container-middle{
+    width:80%;
+    margin:0 auto;
+    padding-bottom: 2vw;
+}
+.container-small{
+    width: 70%;
+    margin: 0 auto;
+}
+.bkgr-cyan{
+    background-color: #b4d0e6;
+}
+.row-left{
+    display: inline-block;
+    width: 30%;
+}
+.row-right{
+    display: inline-block;
+    width: 50%;
+}
 /* IMAGES */
 .row-right>img{
     width: 50vw;
@@ -136,6 +160,7 @@ header img{
 .btn-white{
     background-color: white;
     color: black;
+    border: black 1px solid;
 }
 .btn-border{
     border: 1px solid black;
