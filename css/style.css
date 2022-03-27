@@ -139,6 +139,61 @@ header img{
 .business-block .info{
     font-size: 0.85vw;
 }
+/* ABOUT US */
+.brand-left, .brand-right{
+    display: inline-block;
+    width: 25%;
+}
+.brand-middle{
+    display: inline-block;
+    width: 50vw;
+    background-color: #f5f5f4;
+    min-height: 25vw;
+}
+.square{
+    display: inline-block;
+    width: 12.5vw;
+    height: 12.5vw;
+}
+.square>img{
+    filter: invert(100%);
+    display: block;
+    margin: auto;
+    width: 60%;
+    height: 100%;
+}
+.designit{
+    background-color: #a3d49a;
+}
+.arizonastateuniversity{
+    background-color: #66122c;
+}
+.universityflorida{
+    background-color: #2495cf;
+}
+.topps{
+    background-color: #ff3329;
+}
+.worldbicyclerelief{
+    background-color: #df2627;
+}
+.hearst{
+    background-color: #b4d0e6;
+}
+.lonelyplanet{
+    background-color: #002785;
+}
+.clearchannel{
+    background-color: #feda44;
+}
+.fix{
+    position: relative;
+    top: -4px;
+    left:0px;
+}
+.aboutus-freetrial{
+    background-color: #b4d0e6;
+}
 /* SECTIONS */
 .container-big{
     width: 100%;
