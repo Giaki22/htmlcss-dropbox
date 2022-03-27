@@ -115,6 +115,27 @@ header img{
     display: block;
     margin-top: 2vw;
 }
+.partner-rightside .info{
+    font-size: 1.2vw;
+}
+/* BUSINESS */
+.business .container-small h2{
+    margin-bottom: 2vw;
+}
+.business-block{
+    display: inline-block;
+    width: calc(33% - 6vw);
+    margin-bottom: 6vw;
+}
+.business-block.margin{
+    margin: 0 6vw;
+}
+.business-block img{
+    width: 100%;
+}
+.business-block .info{
+    font-size: 0.9vw;
+}
 /* SECTIONS */
 .container-big{
     width: 100%;
@@ -191,6 +212,9 @@ h3{
     font-size: 1.5vw;
     font-weight: 700;
     margin-bottom: .5vw;
+}
+.underline{
+    text-decoration: underline;
 }
 /* FONTAWESOME */
 .fa-solid.fa-arrow-down{
