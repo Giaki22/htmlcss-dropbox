@@ -92,6 +92,9 @@ header img{
     color: #627381;
     width: 20%;
 }
+.plan-column.margin{
+    margin: 0 2vw;
+}
 /* PARTNER */
 .partner{
     margin-bottom: 5vw;
@@ -134,7 +137,7 @@ header img{
     width: 100%;
 }
 .business-block .info{
-    font-size: 0.9vw;
+    font-size: 0.85vw;
 }
 /* SECTIONS */
 .container-big{
