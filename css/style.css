@@ -10,6 +10,8 @@
 }
 /* HEADER */
 header{
+    position: fixed;
+    z-index: 10;
     width: 100%;
     padding: 1vw;
     background-color: white;
@@ -33,6 +35,10 @@ header img{
     position: relative;
     top: 0px;
     left: 25vw;
+}
+/* WELCOME */
+.welcome .container-big .container-middle{
+    padding-top: 5vw;
 }
 /* PLANS */
 .section-plans{
