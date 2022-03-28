@@ -148,11 +148,11 @@ header img{
 /* ABOUT US */
 .brand-left, .brand-right{
     display: inline-block;
-    width: 25%;
+    width: 25vw;
 }
 .brand-middle{
     display: inline-block;
-    width: 50vw;
+    width: calc(100% - 50vw);
     background-color: #f5f5f4;
     min-height: 25vw;
 }
@@ -191,11 +191,6 @@ header img{
 }
 .clearchannel{
     background-color: #feda44;
-}
-.fix{
-    position: relative;
-    top: -4px;
-    left:0px;
 }
 .aboutus-freetrial{
     background-color: #b4d0e6;
