@@ -228,8 +228,21 @@ header img{
     top: 0vw;
     left: 25vw;
 }
+/* BONUS */
+.faq-answer{
+    display: none;
+    opacity: 0;
+}
+.question:active .arrow .fa-solid.fa-angle-down.fa{
+    transform: rotate(180deg);
+}
+.question:active .faq-answer{
+    display: inline-block;
+    opacity: 1;
+}
 /* FOOTER */
 footer{
+    margin-top: 3vw;
     background-color: black;
     color: white;
 }
